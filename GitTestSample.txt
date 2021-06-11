@@ -55,7 +55,13 @@
 -->git branch -d myBranchName:::will delete the branch
 -->git checkout (BRANCHNAME):::to switch from from one branch to another
 -->git checkout -b newBranch ::This will create branch and switched directly
--->
+--> git push origin newBranch ::: The branch will be pushed to GITHUB
+-->git push origin --delete newBranch::(If we push code then we should use this)
+-->git merge <branchname(Ex:master)> modified data in one file will be modified in another also
+-->git pull upstream master::
+
+
+
 
 		
 
